@@ -1,10 +1,10 @@
 import React from 'react'
 import EdSheranM from '../images/edSheeran.jpg'
 
-const EdSheeran = () => {
+const EdSheeran = ( { className } ) => {
   return (
-    <div>
-        <img src={EdSheranM} alt="Cantautor y músico británico" />
+    <div className={`image-container ${className}`}>
+        <img src={EdSheranM} alt="Cantautor y músico británico" className="image" />
     </div>
   )
 }

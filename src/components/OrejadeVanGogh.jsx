@@ -3,8 +3,8 @@ import OrejaVG from '../images/orejadeVanGogh.jpg'
 
 const OrejadeVanGogh = () => {
   return (
-    <div>
-        <img src={OrejaVG} alt="Grupo musical de género pop rock" />
+    <div className="container">
+        <img src={OrejaVG} alt="Grupo musical de género pop rock" className="image"/>
     </div>
   )
 }

@@ -1,0 +1,9 @@
+body {
+    background: #8133db;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d5a2e9, #9b6eb9, #7f29b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c594d8, #c66dfa, #7f29b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*
+    https://uigradients.com/ página para escoger el color del background.
+*/

@@ -13,63 +13,63 @@ import Rbd from './Rbd';
 
 const Navigation = () => {
   return (
-    <div>
-    <Link to="/EdSheran">
-        <figure>
+    <div className="container mt-4 father">
+    <Link to="/EdSheran" className="links">
+        <figure className="image-size">
             <EdSheeran />
             <figcaption>Ed Sheeran</figcaption>
         </figure>
     </Link>
-    <Link to="/HaAsh">
-        <figure>
+    <Link to="/HaAsh" className="links">
+        <figure className="image-size">
             <HaAsh />
             <figcaption>Ha*Ash</figcaption>
         </figure>
     </Link>
-    <Link to="/JesseJoy">
-        <figure>
+    <Link to="/JesseJoy" className="links">
+        <figure className="image-size">
             <JesseJoy />
             <figcaption>Jesse & Joy</figcaption>
         </figure>
     </Link>
-    <Link to="/Kudai">
-        <figure>
+    <Link to="/Kudai" className="links">
+        <figure className="image-size">
             <Kudai />
             <figcaption>Kudai</figcaption>
         </figure>
     </Link>
-    <Link to="/Mana">
-        <figure>
+    <Link to="/Mana" className="links">
+        <figure className="image-size">
             <Mana />
             <figcaption>Mana</figcaption>
         </figure>
     </Link>
-    <Link to="/Marron5">
-        <figure>
+    <Link to="/Marron5" className="links">
+        <figure className="image-size">
             <Marron5 />
             <figcaption>Marron 5</figcaption>
         </figure>
     </Link>
-    <Link to="/Natalia">
-        <figure>
+    <Link to="/Natalia" className="links">
+        <figure className="image-size">
             <NataliaJimenez />
             <figcaption>Natalia Jimenez</figcaption>
         </figure>
     </Link>
-    <Link to="/Oreja">
-        <figure>
+    <Link to="/Oreja" className="links">
+        <figure className="image-size">
             <OrejadeVanGogh />
             <figcaption>Oreja de Van Gogh</figcaption>
         </figure>
     </Link>
-    <Link to="/OV7">
-        <figure>
+    <Link to="/OV7" className="links">
+        <figure className="image-size">
             <Ov7 />
             <figcaption>Ov 7</figcaption>
         </figure>
     </Link>
-    <Link to="/Rbd">
-        <figure>
+    <Link to="/Rbd" className="links">
+        <figure className="image-size">
             <Rbd />
             <figcaption>Rbd</figcaption>
         </figure>

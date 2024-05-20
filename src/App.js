@@ -15,17 +15,20 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <Router>
+       <div className='container'>
+        <h1 id="title" className='text-center my-3'>Galería</h1>
+      </div>
       <Routes>
-        <Route path="/EdSheran" Component={EdSheeran}/>
-        <Route path="/HaAsh" Component={HaAsh}/>
-        <Route path="/JesseJoy" Component={JesseJoy}/>
-        <Route path="/Kudai" Component={Kudai}/>
-        <Route path="/Mana" Component={Mana}/>
-        <Route path="/Marron5" Component={Marron5}/>
-        <Route path="/Natalia" Component={Natalia}/>
-        <Route path="/Oreja" Component={Oreja}/>
-        <Route path="/OV7" Component={OV7}/>
-        <Route path="/Rbd" Component={Rbd}/>
+        <Route path="/EdSheran" element={<EdSheeran className="image-size" />}/>
+        <Route path="/HaAsh" element={<HaAsh className="image-size" />}/>
+        <Route path="/JesseJoy" element={<JesseJoy className="image-size" />}/>
+        <Route path="/Kudai" element={<Kudai className="image-size" />}/>
+        <Route path="/Mana" element={<Mana className="image-size" />}/>
+        <Route path="/Marron5" element={<Marron5 className="image-size" />}/>
+        <Route path="/Natalia" element={<Natalia className="image-size" />}/>
+        <Route path="/Oreja" element={<Oreja className="image-size" />}/>
+        <Route path="/OV7" element={<OV7 className="image-size" />}/>
+        <Route path="/Rbd" element={<Rbd className="image-size" />}/>
       </Routes>
       <Navigation />
     </Router>

@@ -3,8 +3,8 @@ import JesseyJoy from '../images/JesseJoy.jpg'
 
 const JesseJoy = () => {
   return (
-    <div>
-        <img src={JesseyJoy} alt="Dúo mexicano de música pop" />
+    <div className="container">
+      <img src={JesseyJoy} alt="Dúo mexicano de música pop" className="image"/>
     </div>
   )
 }

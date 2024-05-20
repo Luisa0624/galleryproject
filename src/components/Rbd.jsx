@@ -3,8 +3,8 @@ import Rebelde from '../images/rbd.jpg'
 
 const Rbd = () => {
   return (
-    <div>
-        <img src={Rebelde} alt="Grupo pop mexicano, Fenomeno Mundial" />
+    <div className="container">
+        <img src={Rebelde} alt="Grupo pop mexicano, Fenomeno Mundial" className="image"/>
     </div>
   )
 }

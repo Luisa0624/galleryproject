@@ -3,8 +3,8 @@ import MarronFive from '../images/marron5.jpg'
 
 const Marron5 = () => {
   return (
-    <div>
-        <img src={MarronFive} alt="Banda musical de pop rock​ estadounidense" />
+    <div className="container">
+        <img src={MarronFive} alt="Banda musical de pop rock​ estadounidense" className="image"/>
     </div>
   )
 }
