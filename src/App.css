@@ -1,11 +1,12 @@
 .image-size {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: auto;
     border-radius: 5px;
 }
 
 .father {
-    height: 100px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,14 +36,15 @@
 
 .image {
     width: 50%;
-    object-fit: cover;
+    align-items: center;
+    object-fit: flex;
     border-radius: 10px;
     box-shadow: 0 2px 2px rgba(0,0, 0,0.8);
 }
 
 figcaption {
     margin: 0;
-    padding: 5px;
+    padding: 2px;
 }
 
 figure {

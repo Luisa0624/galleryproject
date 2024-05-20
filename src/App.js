@@ -16,11 +16,13 @@ function App() {
   return (
     <Router>
        <div className='container'>
-        <h1 id="title" className='text-center my-3'>Galería</h1>
+        <center><h1>Galería de Cantantes</h1></center>
+        <br></br>
       </div>
+      <center>
       <Routes>
-        <Route path="/EdSheran" element={<EdSheeran className="image-size" />}/>
-        <Route path="/HaAsh" element={<HaAsh className="image-size" />}/>
+        <Route path="/EdSheran" element={<EdSheeran className="image-size"/>}/>
+        <Route path="/HaAsh" element={<HaAsh className="image-size"/>}/>
         <Route path="/JesseJoy" element={<JesseJoy className="image-size" />}/>
         <Route path="/Kudai" element={<Kudai className="image-size" />}/>
         <Route path="/Mana" element={<Mana className="image-size" />}/>
@@ -30,8 +32,11 @@ function App() {
         <Route path="/OV7" element={<OV7 className="image-size" />}/>
         <Route path="/Rbd" element={<Rbd className="image-size" />}/>
       </Routes>
+      </center>
       <Navigation />
+      
     </Router>
+    
   );
 }
 
